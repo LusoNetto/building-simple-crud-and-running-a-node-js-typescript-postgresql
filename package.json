@@ -1,0 +1,23 @@
+{
+  "name": "building-simple-crud-and-running-a-node-js-typescript-postgresql",
+  "version": "1.0.0",
+  "description": "This is a project of building-simple-crud-and-running-a-node-js-typescript-postgresql",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "LusoNetto",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon ./build/index.js",
+    "start-dev": "tsc && yarn dev"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.3.0",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
